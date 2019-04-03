@@ -1,4 +1,4 @@
-'#parrot' do
-  it 'should output "Squawk!" to the terminal when called without any arguments' do
+'def parrot 
+
     expect($stdout).to receive(:puts).with("Squawk!")
     parrot
